@@ -15,5 +15,5 @@ get '/hello' do
 end
 
 get '/cat' do
-	"<img style='border: 5px dotted red' src='http://bit.ly/1eze8aE'>"
+  erb(:index)
 end
