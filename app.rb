@@ -9,5 +9,6 @@ get '/secret' do
 end
 
 get '/cat' do
-	erb(:index)
+	@name_sampler = ["Amigo", "Oscar", "Viking"].sample
+  erb(:index)
 end
